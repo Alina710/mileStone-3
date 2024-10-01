@@ -1,7 +1,7 @@
-/* styles.css */
+
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #e8f0f2; /* Light blue background */
+  background-color: #e8f0f2; 
   margin: 0;
   padding: 0;
   display: flex;
@@ -13,7 +13,7 @@ body {
 .container {
   max-width: 800px;
   width: 100%;
-  background-color: #ffffff; /* White background for the container */
+  background-color: #ffffff; 
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   padding: 40px;
@@ -23,14 +23,14 @@ body {
 .title {
   text-align: center;
   font-size: 2.5rem;
-  color: #023e8a; /* Green color for the title */
+  color: #023e8a; 
   margin-bottom: 30px;
 }
 
 .form-section h2 {
   font-size: 1.2rem;
   color: #333;
-  border-bottom: 2px solid #023e8a; /* Green underline for headings */
+  border-bottom: 2px solid #023e8a; 
   padding-bottom: 5px;
 }
 
@@ -50,7 +50,7 @@ input::placeholder, textarea::placeholder {
 
 input:focus, textarea:focus {
   outline: none;
-  border-color: #000000; /* Green border on focus */
+  border-color: #000000; 
 }
 
 textarea {
@@ -61,7 +61,7 @@ textarea {
 button {
   width: 100%;
   padding: 15px;
-  background-color: #023e8a; /* Green button */
+  background-color: #023e8a; 
   border: none;
   border-radius: 5px;
   color: white;
@@ -71,7 +71,7 @@ button {
 }
 
 button:hover {
-  background-color: #0077b6; /* Darker green on hover */
+  background-color: #0077b6;
 }
 
 .resume-section {
@@ -80,7 +80,7 @@ button:hover {
 
 .resume-section h2 {
   font-size: 1.5rem;
-  color: #023e8a; /* Green color for resume section */
+  color: #023e8a; 
 }
 
 #resumeContent p {
