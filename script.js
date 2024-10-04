@@ -23,6 +23,6 @@ function generateResume() {
     resumeDiv.innerHTML = resumeContent;
     var resumeSection = document.getElementById("resume");
     var formSection = document.getElementById("resumeForm");
-    formSection.style.display = "none"; // Hide form
-    resumeSection.style.display = "block"; // Show resume
+    formSection.style.display = "none"; 
+    resumeSection.style.display = "block"; 
 }

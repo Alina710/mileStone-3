@@ -55,6 +55,6 @@ function generateResume(): void {
   const resumeSection = document.getElementById("resume") as HTMLElement;
   const formSection = document.getElementById("resumeForm") as HTMLElement;
 
-  formSection.style.display = "none"; // Hide form
-  resumeSection.style.display = "block"; // Show resume
+  formSection.style.display = "none"; 
+  resumeSection.style.display = "block"; 
 }
